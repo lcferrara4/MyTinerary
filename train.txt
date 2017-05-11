@@ -1,0 +1,339 @@
+id|Open Door Gastropub|bar|0|1|1|0|0|0|0|0|0
+id|TKTS South Street Seaport|store|0|0|0|0|0|0|0|1|0
+id|Federal Reserve Bank of New York|finance|0|0|0|0|0|0|0|0|0
+id|TitleVest|insurance_agency|0|0|0|0|0|0|0|0|0
+id|Manhattan CPA|accounting|0|0|0|0|0|0|0|0|0
+id|Lower East Side Services Center|health|0|0|0|0|0|0|0|0|0
+id|Pace University|university|0|0|0|0|0|0|0|0|0
+id|US Social Security Administration|local_government_office|0|0|0|0|0|0|0|0|0
+id|Lower Manhattan|neighborhood|0|0|0|1|0|0|0|0|0
+id|The Loeb Boathouse|bar|0|1|1|0|0|0|0|0|0
+id|Christian Louboutin Madison|shoe_store|0|0|0|0|1|0|0|0|0
+id|Ladurée Madison|bakery|0|1|0|0|0|0|0|0|0
+id|Lady M Cake Boutique|bakery|0|1|0|0|0|0|0|0|0
+id|J.Crew Collection|clothing_store|0|0|0|0|1|0|0|0|0
+id|Dr. Joseph A. Puma| MD|doctor|0|0|0|0|0|0|0|0|0
+id|Lenox Hill Hospital: Rho Richard B MD|doctor|0|0|0|0|0|0|0|0|0
+id|Fifth Avenue Apartments|point_of_interest|0|0|0|0|0|0|0|0|0
+id|Consulate General of France|embassy|0|0|0|0|0|0|0|0|0
+id|Barbour|clothing_store|0|0|0|0|1|0|0|0|0
+id|Lenox Hill Hospital: Department of Hematology & Oncology|hospital|0|0|0|0|0|0|0|0|0
+id|Manhattan|sublocality_level_1|0|0|0|1|0|0|0|0|0
+id|The Surrey|lodging|0|0|0|0|0|0|0|0|0
+id|The Carlyle| A Rosewood Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Mark|lodging|0|0|0|0|0|0|0|0|0
+id|Lenox Hill Hospital|hospital|0|0|0|0|0|0|0|0|0
+id|The Frick Collection|museum|0|0|0|0|0|0|1|0|0
+id|Ralph Lauren Men's Flagship|clothing_store|0|0|0|0|1|0|0|0|0
+id|La Maison Du Chocolat|food|0|1|0|0|0|0|0|0|0
+id|THE CARLYLE RESTAURANT|restaurant|0|1|0|0|0|0|0|0|0
+id|Cafe Boulud|night_club|0|1|0|0|0|0|0|0|0
+id|Shake Shack|meal_takeaway|0|1|0|0|0|0|0|0|0
+id|Stand Up NY|bar|0|0|1|0|0|1|0|0|0
+id|Patagonia Upper West Side|clothing_store|0|0|0|0|1|0|0|0|0
+id|American Museum of Natural History|museum|0|0|0|0|0|0|1|0|0
+id|Beacon Theatre|point_of_interest|0|0|0|1|0|0|0|1|0
+id|Hotel Beacon|lodging|0|0|0|0|0|0|0|0|0
+id|New-York Historical Society|library|0|0|0|0|0|0|0|0|0
+id|Hayden Planetarium|point_of_interest|0|0|0|1|0|0|0|1|0
+id|Staples|electronics_store|0|0|0|0|0|0|0|0|0
+id|Levain|bakery|0|1|0|0|0|0|0|0|0
+id|Equinox West 76th Street|gym|0|0|0|0|0|0|0|0|0
+id|Knitty City|store|0|0|0|0|0|0|0|0|0
+id|Calle Ocho|bar|0|1|0|0|0|0|0|0|0
+id|Sugar and Plumm|bakery|0|1|0|0|0|0|0|0|0
+id|Irving Farm Coffee Roasters|cafe|0|1|0|0|0|0|0|0|0
+id|Zabar's|grocery_or_supermarket|0|0|0|0|0|0|0|0|0
+id|Central Park Zoo|zoo|0|0|0|1|0|0|0|1|0
+id|New York Athletic Club|gym|0|0|0|0|0|0|0|0|0
+id|Park Room|bar|0|1|0|0|0|0|0|0|0
+id|Mario Tuchman DMD MD|doctor|0|0|0|0|0|0|0|0|0
+id|New York Plastic Surgery P.C|doctor|0|0|0|0|0|0|0|0|0
+id|Quality Meats|restaurant|0|1|0|0|0|0|0|0|0
+id|Dominique Salon|beauty_salon|0|0|0|0|0|0|0|0|0
+id|The Plaza Food Hall|restaurant|0|1|0|0|0|0|0|0|0
+id|The Jewel Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Warwick New York|lodging|0|0|0|0|0|0|0|0|0
+id|New York Hilton Midtown|lodging|0|0|0|0|0|0|0|0|0
+id|The Hilton Club - New York|lodging|0|0|0|0|0|0|0|0|0
+id|Shoreham Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Peninsula New York|lodging|0|0|0|0|0|0|0|0|0
+id|The St. Regis New York|lodging|0|0|0|0|0|0|0|0|0
+id|Omni Berkshire Place|lodging|0|0|0|0|0|0|0|0|0
+id|Chambers New York Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Sheraton New York Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The London NYC|lodging|0|0|0|0|0|0|0|0|0
+id|West 57th Street by Hilton Club|lodging|0|0|0|0|0|0|0|0|0
+id|Lotte New York Palace|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Elysee New York|lodging|0|0|0|0|0|0|0|0|0
+id|Viceroy Central Park New York|lodging|0|0|0|0|0|0|0|0|0
+id|AKA Central Park|lodging|0|0|0|0|0|0|0|0|0
+id|Wellington Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan at Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan at Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|48 Lounge|bar|0|0|1|0|0|0|0|0|0
+id|21 Club|bar|0|1|0|0|0|0|0|0|0
+id|Bistro New York|restaurant|0|1|0|0|0|0|0|0|0
+id|King Cole Bar|bar|0|1|0|0|0|0|0|0|0
+id|Joe's Shanghai|restaurant|0|1|0|0|0|0|0|0|0
+id|Del Frisco's|bar|0|1|0|0|0|0|0|0|0
+id|Bar Americain|bar|0|1|0|0|0|0|0|0|0
+id|The Capital Grille|bar|0|1|0|0|0|0|0|0|0
+id|Nobu Fifty Seven|restaurant|0|1|0|0|0|0|0|0|0
+id|Del Frisco's Grille|bar|0|1|0|0|0|0|0|0|0
+id|Le Bernardin|bar|0|1|0|0|0|0|0|0|0
+id|burger joint|bar|0|1|0|0|0|0|0|0|0
+id|Norma's|restaurant|0|1|0|0|0|0|0|0|0
+id|FIG & OLIVE|restaurant|0|1|0|0|0|0|0|0|0
+id|Potbelly Sandwich Shop|restaurant|0|1|0|0|0|0|0|0|0
+id|Bill's Bar & Burger|bar|0|1|0|0|0|0|0|0|0
+id|Michael's|bar|0|1|1|0|0|0|0|0|1
+id|Hudson's Market|restaurant|0|1|0|0|0|0|0|0|0
+id|Yummy Sushi|restaurant|0|1|0|0|0|0|0|0|0
+id|The Museum of Modern Art|museum|0|0|0|0|0|1|1|0|0
+id|The Paley Center For Media|museum|0|0|0|0|0|0|1|0|0
+id|Hellenic Museums Shop|museum|0|0|0|0|0|0|1|0|0
+id|Museum Tower Condominium|museum|0|0|0|0|0|0|0|0|0
+id|Onassis Cultural Center|museum|0|0|0|0|0|0|1|0|0
+id|The Merrin Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|MoMA Design and Book Store|store|0|0|0|0|0|0|0|0|0
+id|The Ride Office|museum|0|0|0|0|0|0|1|0|0
+id|Daphne Alazraki Fine Art|art_gallery|0|0|0|0|0|1|0|0|0
+id|The Waterfall Plaza|museum|0|0|0|1|0|0|0|0|0
+id|Cullman Education Center MoMA|museum|0|0|0|0|0|0|1|0|0
+id|central park|museum|0|0|0|1|0|0|1|0|0
+id|National Muesum Of American History|museum|0|0|0|0|0|0|1|0|0
+id|David Burke Kitchen|restaurant|0|1|0|0|0|0|0|0|0
+id|Balthazar|restaurant|0|1|0|0|0|0|0|0|0
+id|B & B Winepub|restaurant|0|1|1|0|0|0|0|0|0
+id|The Dutch|bar|0|1|0|0|0|0|0|0|0
+id|Lombardi's|meal_takeaway|0|1|0|0|0|0|0|0|0
+id|Cipriani Downtown|bar|0|1|0|0|0|0|0|0|0
+id|Emporio|bar|0|1|0|0|0|0|0|0|0
+id|Gilligan's|restaurant|0|1|0|0|0|0|0|0|0
+id|Boqueria Soho|bar|0|1|0|0|0|0|0|0|0
+id|La Esquina|restaurant|0|1|0|0|0|0|0|0|0
+id|Lure Fishbar|bar|0|1|0|0|0|0|0|0|0
+id|The Mercer Kitchen|bar|0|1|0|0|0|0|0|0|0
+id|Spring Natural Restaurant|bar|0|1|0|0|0|0|0|0|0
+id|Rubirosa|restaurant|0|1|0|0|0|0|0|0|0
+id|Pravda New York|night_club|0|0|1|0|0|0|0|0|0
+id|Osteria Morini|bar|0|1|0|0|0|0|0|0|0
+id|Prince Street Pizza|restaurant|0|1|0|0|0|0|0|0|0
+id|Ed's Lobster Bar|bar|0|1|0|0|0|0|0|0|0
+id|Dos Caminos|night_club|0|1|1|0|0|0|0|0|0
+id|Le Pain Quotidien Soho|bakery|0|1|0|0|0|0|0|0|0
+id|Dominique Ansel Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Georgetown Cupcake|bakery|0|1|0|1|0|0|0|0|0
+id|Dean & DeLuca|grocery_or_supermarket|0|0|0|0|0|0|0|0|0
+id|Eileen's Special Cheesecake|bakery|0|1|0|0|0|0|0|0|0
+id|Little Cupcake Bakeshop|bakery|0|1|0|0|0|0|0|0|0
+id|Le Pain Quotidien - Bleecker St.|bakery|0|1|0|0|0|0|0|0|0
+id|François Payard Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Once Upon a Tart|cafe|0|1|0|0|0|0|0|0|0
+id|Parisi Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Cafe Angelique|bakery|0|1|0|0|0|0|0|0|0
+id|International Pastry Concepts|bakery|0|1|0|0|0|0|0|0|0
+id|Birdbath Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Mo il gelato|bakery|0|1|0|0|0|0|0|0|0
+id|Tribeca Bagels|bakery|0|1|0|0|0|0|0|0|0
+id|Dunkin' Donuts|bakery|0|1|0|0|0|0|0|0|0
+id|The Frog's Crown Cafe|cafe|0|1|0|0|0|0|0|0|0
+id|Baked by Melissa|bakery|0|1|0|1|0|0|0|0|0
+id|Birdbath Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Versailles Paris 1983|bakery|0|1|0|0|0|0|0|0|0
+id|Housing Works Bookstore Cafe|book_store|0|0|0|0|0|0|0|0|0
+id|Supreme|clothing_store|0|0|0|0|1|0|0|0|0
+id|Moncler|clothing_store|0|0|0|0|1|0|0|0|0
+id|MUJI SOHO|furniture_store|0|0|0|0|0|0|0|0|0
+id|Crate and Barrel|furniture_store|0|0|0|0|0|0|0|0|0
+id|Converse|shoe_store|0|0|0|0|1|0|0|0|0
+id|ALEX AND ANI|jewelry_store|0|0|0|0|1|0|0|0|0
+id|Timberland|shoe_store|0|0|0|0|1|0|0|0|0
+id|REI|bicycle_store|0|0|0|0|0|0|0|0|0
+id|Apple SoHo|electronics_store|0|0|0|0|0|0|0|0|0
+id|La Colombe Coffee Roasters|cafe|0|1|0|0|0|0|0|0|0
+id|Steve Madden|shoe_store|0|0|0|0|1|0|0|0|0
+id|Madewell|clothing_store|0|0|0|0|1|0|0|0|0
+id|Best Buy|electronics_store|0|0|0|0|0|0|0|0|0
+id|Uniqlo Soho|clothing_store|0|0|0|0|1|0|0|0|0
+id|Forever 21|clothing_store|0|0|0|0|1|0|0|0|0
+id|Bloomingdale's|department_store|0|0|0|0|1|0|0|0|0
+id|J.Crew Mens Shop|clothing_store|0|0|0|0|1|0|0|0|0
+id|Patagonia SoHo|clothing_store|0|0|0|0|1|0|0|0|0
+id|Topshop|clothing_store|0|0|0|0|1|0|0|0|0
+id|Marshalls|department_store|0|0|0|0|1|0|0|0|0
+id|Fuel Fever|meal_delivery|0|0|0|0|0|0|0|0|0
+id|Evolution Boxing|gym|0|0|0|0|0|0|0|0|0
+id|The Little Gym of Bay Ridge-Bensonhurst|gym|0|0|0|0|0|0|0|0|0
+id|Classic Tile & Marble Inc.|home_goods_store|0|0|0|0|0|0|0|0|0
+id|Rite Aid|pharmacy|0|0|0|0|0|0|0|0|0
+id|June Florist|florist|0|0|0|0|0|0|0|0|0
+id|A Center For Dental Excellence: Valerie Venterina DDS PC|dentist|0|0|0|0|0|0|0|0|0
+id|CVS|convenience_store|0|0|0|0|0|0|0|0|0
+id|East Ocean Buffet|restaurant|0|1|0|0|0|0|0|0|0
+id|Alaskan Sun Tanning|point_of_interest|0|0|0|0|0|0|0|0|0
+id|Reliable Bakery|bakery|0|1|0|0|0|0|0|0|0
+id|Maurro & Sons Plumbing & Heating|store|0|0|0|0|0|0|0|0|0
+id|Temco Service Industries|point_of_interest|0|0|0|0|0|0|0|0|0
+id|Dunkin' Donuts|bakery|0|1|0|0|0|0|0|0|0
+id|P.S. 163 Bath Beach|school|0|0|0|0|0|0|0|0|0
+id|Aerus Electrolux|store|0|0|0|0|0|0|0|0|0
+id|Lenco Diagnostic Laboratories|health|0|0|0|0|0|0|0|0|0
+id|Puppy Boutique|point_of_interest|0|0|0|0|0|0|0|0|0
+id|Garibaldi Playground|park|0|0|0|0|0|0|0|0|0
+id|Milestone Park|park|0|0|0|0|0|0|0|0|0
+id|Marshalls|department_store|0|0|0|0|1|0|0|0|0
+id|Fuel Fever|meal_delivery|0|0|0|0|0|0|0|0|0
+id|Evolution Boxing|gym|0|0|0|0|0|0|0|0|0
+id|The Little Gym of Bay Ridge-Bensonhurst|gym|0|0|0|0|0|0|0|0|0
+id|Classic Tile & Marble Inc.|home_goods_store|0|0|0|0|0|0|0|0|0
+id|Rite Aid|pharmacy|0|0|0|0|0|0|0|0|0
+id|June Florist|florist|0|0|0|0|0|0|0|0|0
+id|Ameritania at Times Square|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Novotel New York Times Square|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan at Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Sheraton New York Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Moderne Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The London NYC|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan Club|lodging|0|0|0|0|0|0|0|0|0
+id|Park Central Hotel New York|lodging|0|0|0|0|0|0|0|0|0
+id|Wellington Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Michelangelo|lodging|0|0|0|0|0|0|0|0|0
+id|Da Vinci Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Hampton Inn Manhattan-Times Square North|lodging|0|0|0|0|0|0|0|0|0
+id|The Hilton Club - New York|lodging|0|0|0|0|0|0|0|0|0
+id|New York Hilton Midtown|lodging|0|0|0|0|0|0|0|0|0
+id|Pearl Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Washington Jefferson Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Mayfair New York|lodging|0|0|0|0|0|0|0|0|0
+id|The Time New York Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Midtown|neighborhood|0|0|0|0|0|0|0|0|0
+id|Ameritania at Times Square|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Novotel New York Times Square|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan at Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Sheraton New York Times Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Moderne Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The London NYC|lodging|0|0|0|0|0|0|0|0|0
+id|The Manhattan Club|lodging|0|0|0|0|0|0|0|0|0
+id|Park Central Hotel New York|lodging|0|0|0|0|0|0|0|0|0
+id|Wellington Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Le Parker Meridien|gym|0|0|0|0|0|0|0|0|0
+id|Crowne Plaza Times Square Manhattan|lodging|0|0|0|0|0|0|0|0|0
+id|Apple Union Square|electronics_store|0|0|0|0|1|0|0|0|0
+id|Macy's|department_store|0|0|0|0|1|0|0|0|0
+id|The North Face|clothing_store|0|0|0|0|1|0|0|0|0
+id|Uniqlo San Francisco Union Sq|clothing_store|0|0|0|0|1|0|0|0|0
+id|A/X Armani Exchange|clothing_store|0|0|0|0|1|0|0|0|0
+id|Crate and Barrel|furniture_store|0|0|0|0|0|0|0|0|0
+id|Gap|clothing_store|0|0|0|0|1|0|0|0|0
+id|Urban Outfitters|clothing_store|0|0|0|0|1|0|0|0|0
+id|Disney Store|clothing_store|0|0|0|0|1|0|0|0|0
+id|Neiman Marcus|clothing_store|0|0|0|0|1|0|0|0|0
+id|Williams-Sonoma|grocery_or_supermarket|0|0|0|0|0|0|0|0|0
+id|Banana Republic|clothing_store|0|0|0|0|1|0|0|0|0
+id|Clarks #550|shoe_store|0|0|0|0|1|0|0|0|0
+id|Ross Dress for Less|clothing_store|0|0|0|0|1|0|0|0|0
+id|American Apparel|clothing_store|0|0|0|0|1|0|0|0|0
+id|Lush Cosmetics|store|0|0|0|0|1|0|0|0|0
+id|Tiffany & Co.|jewelry_store|0|0|0|0|1|0|0|0|0
+id|Honey Honey Cafe & Crepery|cafe|0|1|0|0|0|0|0|0|0
+id|Clift San Francisco|lodging|0|0|0|0|0|0|0|0|0
+id|King George Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Union Square Plaza Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Diva|lodging|0|0|0|0|0|0|0|0|0
+id|HI San Francisco Downtown Hostel|lodging|0|0|0|0|0|0|0|0|0
+id|Handlery Union Square Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Touchstone Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Donatello|lodging|0|0|0|0|0|0|0|0|0
+id|Warwick San Francisco|lodging|0|0|0|0|0|0|0|0|0
+id|The Westin St. Francis San Francisco on Union Square|lodging|0|0|0|0|0|0|0|0|0
+id|Hilton San Francisco Union Square|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Nikko San Francisco|lodging|0|0|0|0|0|0|0|0|0
+id|Villa Florence Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|JW Marriott San Francisco Union Square|lodging|0|0|0|0|0|0|0|0|0
+id|Kensington Park Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Serrano Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|The Inn at Union Square|lodging|0|0|0|0|0|0|0|0|0
+id|The Marker San Francisco|lodging|0|0|0|0|0|0|0|0|0
+id|Hotel Stratford|lodging|0|0|0|0|0|0|0|0|0
+id|The Herbert Hotel|lodging|0|0|0|0|0|0|0|0|0
+id|Curran Theatre|point_of_interest|0|0|0|1|0|0|0|1|0
+id|A.C.T.'s Geary Theater|point_of_interest|0|0|0|1|0|0|0|1|0
+id|San Francisco Playhouse|point_of_interest|0|0|0|0|0|0|0|1|0
+id|PianoFight|bar|0|1|1|0|0|0|0|1|0
+id|Golden Gate Theatre|point_of_interest|0|0|0|1|0|0|0|1|0
+id|Down Town Comedy Theater|point_of_interest|0|0|0|0|0|0|0|1|0
+id|Ales Unlimited: Beer Basement|point_of_interest|0|0|1|0|0|0|0|1|0
+id|Comedy On the Square|point_of_interest|0|0|0|0|0|0|0|1|0
+id|Exit Theatre|point_of_interest|0|0|0|0|0|0|0|1|0
+id|Patagonia San Francisco|clothing_store|0|0|0|0|1|0|0|0|0
+id|Dudley Perkins Co|store|0|0|0|0|1|0|0|0|0
+id|San Francisco Bicycle Rentals|bicycle_store|0|0|0|0|0|0|0|0|0
+id|Blazing Saddles Bike Rentals and Tours|store|0|0|0|0|0|0|0|0|0
+id|Boudin Bakery & Cafe|bakery|0|1|0|0|0|0|0|0|0
+id|The Cannery|shopping_mall|0|0|0|0|1|0|0|0|0
+id|Cost Plus World Market|furniture_store|0|0|0|0|0|0|0|0|0
+id|Wharf Pass San Francisco|travel_agency|0|0|0|0|0|0|0|0|0
+id|Musée Mécanique|museum|0|0|0|0|0|0|0|1|0
+id|Walgreens|convenience_store|0|0|0|0|0|0|0|0|0
+id|San Francisco Chocolate Store|food|0|1|0|0|1|0|0|0|0
+id|Gigi & Rose|clothing_store|0|0|0|0|1|0|0|0|0
+id|Jackson & Polk|store|0|0|0|0|1|0|0|0|0
+id|Ghirardelli|food|0|1|0|0|0|0|0|0|0
+id|Mobile Kangaroo - Apple Authorized|electronics_store|0|0|0|0|0|0|0|0|0
+id|Camera Zone & Art Gallery|electronics_store|0|0|0|0|0|0|0|0|0
+id|Russian Ark|store|0|0|0|0|1|0|0|0|0
+id|Wattle Creek Winery|bar|0|0|1|0|0|0|0|0|0
+id|Ross Dress for Less|clothing_store|0|0|0|0|1|0|0|0|0
+id|Norman's Ice Cream & Freezes|food|0|1|0|0|0|0|0|0|0
+id|Mark Reuben Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Modern Eden Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Paul Thiebaud Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Walter and McBean Galleries|art_gallery|0|0|0|0|0|1|0|0|0
+id|Conor Fennessy Antiques & Design|art_gallery|0|0|0|0|0|1|0|0|0
+id|Chloe Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Kashmir Art Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Eden Fine Art|art_gallery|0|0|0|0|0|1|0|0|0
+id|ZK Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Dennis Rae Fine Art Inc|art_gallery|0|0|0|0|0|1|0|0|0
+id|Majestic Collection|art_gallery|0|0|0|0|0|1|0|0|0
+id|Charles Campbell Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Real Old Paper Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Real Old Paper|art_gallery|0|0|0|0|0|1|0|0|0
+id|Bradley Platz|art_gallery|0|0|0|0|0|1|0|0|0
+id|Da De Art Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|Z Collection|art_gallery|0|0|0|0|0|1|0|0|0
+id|Firenze Fine Arts Inc|art_gallery|0|0|0|0|0|1|0|0|0
+id|Art Collective Gallery|art_gallery|0|0|0|0|0|1|0|0|0
+id|AAU Galleries at the Cannery Gallery 115|art_gallery|0|0|0|0|0|1|0|0|0
+id|San Francisco Museum of Modern Art|art_gallery|0|0|0|0|0|0|0|0|0
+id|Children's Creativity Museum|museum|0|0|0|0|0|0|1|0|0
+id|Contemporary Jewish Museum|museum|0|0|0|0|0|0|1|0|0
+id|California Historical Society|library|0|0|0|0|0|0|1|0|0
+id|Children's Creativity Carousel|amusement_park|0|0|0|0|0|0|1|1|0
+id|American Ginseng Museum|museum|0|0|0|0|0|0|1|0|0
+id|Museum of the African Diaspora|museum|0|0|0|0|0|0|1|0|0
+id|YBCA|museum|0|0|0|0|0|0|1|0|0
+id|Archives of Moca|museum|0|0|0|0|0|0|1|0|0
+id|Kiosk museums|museum|0|0|0|0|0|0|1|0|0
+id|SFmoma's museum|museum|0|0|0|0|0|0|1|0|0
+id|SFMOMA|museum|0|0|0|0|0|0|1|0|0
+id|Whispering Chairs|museum|0|0|0|0|0|0|1|0|0
+id|Exploratorium Pause on Market Living Innovation Zone|museum|0|0|0|0|0|0|1|0|0
+id|Pinclips|museum|0|0|0|0|0|0|1|0|0
+id|AT&T Park|stadium|0|0|0|0|0|0|0|0|1
+id|Kezar Stadium|stadium|0|0|0|0|0|0|0|0|1
+id|Stanford Stadium|stadium|0|0|0|0|0|0|0|0|1
+id|Roscoe Maples Pavilion|stadium|0|0|0|0|0|0|0|0|1
+id|Maloney Field at Laird Q. Cagan Stadium|stadium|0|0|0|0|0|0|0|0|1
+id|Taube Tennis Center|stadium|0|0|0|0|0|0|0|0|1
+id|Sunken Diamond|stadium|0|0|0|0|0|0|0|0|1
+id|Angell Field|stadium|0|0|0|0|0|0|0|0|1
+id|Baseball Concession Stand|stadium|0|0|0|0|0|0|0|0|1
+id|Varsity Tennis Court Facility|stadium|0|0|0|0|0|0|0|0|1
+id|Baseball Pressbox|stadium|0|0|0|0|0|0|0|0|1
+id|Laird Q. Cagan Stadium|premise|0|0|0|0|0|0|0|0|1
+id|Steuber Rugby Stadium|premise|0|0|0|0|0|0|0|0|1
+id|California Academy of Sciences|aquarium|0|0|0|1|0|0|1|0|0
+id|Steinhart Aquarium|aquarium|0|0|0|1|0|0|1|0|0

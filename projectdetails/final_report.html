@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyTinerary Final Report</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<h1><a href="./index.html">MyTinerary</a> Final Report</h1>
+		<h2>Description of Project</h2>
+			<p>This application automatically generates travel suggestions based on user preferences and reviews and then gives the user a drag and drop calendar on which they can build their travel itinerary.</p>
+		<h2>Usefulness</h2>
+			<p>Our website will be helpful to plan trips quickly, filling in events based on the user's preferences for cost and activities. It will take much of the hassle out of looking through multiple websites and travel books to decide what to do in a new area (specifically implemented for Chicago right now). Unlike existing websites, this site doesn't have preplanned itineraries. Instead, it takes into account what the user would want to do.</p>
+		<h2>Data in Database</h2>
+		<h3>ER Diagram</h3>
+			<img src="er_diagram1.jpg", width=800, height = 600>
+		<h3>Relational Schema</h3>
+			<p>Users(email, password, first_name, last_name)</p>
+			<p>Event(event_id, start_time, end_time, site_id, calendar_id)</p>
+			<p>Calendar(calendar_id, title, trip_start, trip_end, creator_email)</p>
+			<p>Permissions(calendar_id, user_email)</p>
+			<p>Site(place_id, name, category, open_time, close_time, rating, price, food, bar, sightseeing, shopping, art, museum, theater, sports, late, lon, addr)</p>
+			<p>Preferences(email, food, bar, sightseeing, shopping, art, museum, theater, sports, one_dollar, two_dollar, three_dollar)</p>
+			<p>Suggestions(email, general_category, site_id, site_name, score)</p>
+		<h3>Collection of Data</h3>
+			<p>We got most of our data from the Google Places API. It provided us with the name, location, category, hours of operation, ratings, and price for any notable locations in Chicago, New York, and San Francisco. The data from New York and San Francisco was used as training data for our Naive Bayes classifier, which was used to classify the locations taken from Chicago. We also added some data by registering fake users and setting up calendars and preferences for them.</p>
+		<h2>List of Functionalities</h2>
+			<ul>
+				<li>Creating account</li>
+				<li>Login/Logout</li>
+				<li>Update password</li>
+				<li>Update preferences</li>
+				<li>Create new calendar</li>
+				<li>Drag and drop calendar</li>
+				<li>View upcoming or prior calendars</li>
+				<li>Save calendar</li>
+				<li>Share or delete calendar</li>
+			</ul>
+		<h2>Explanation of Basic Function</h2>
+		<h3>SQL Call:</h3>
+                                <p>$sql = "UPDATE Users SET password = '".$hash."' WHERE email = '".$email."';";</p>
+                                <p>mysqli_query($db_conx, $sql) or die("Failed to update password");</p>
+		<h3>Data Flow:</h3>
+        		<ol>
+				<li>The sessions variables for email and password are stored.</li>
+				<li>An SQL command gets the user information from the database for that email.</li>
+				<li>The user must enter the correct old password.</li>
+				<li>The posted data for new password and confirmed password are stored.</li>
+				<li>The length of the new password is checked to be at least 8 characters.</li>
+				<li>It is checked that the new password and confirmed password match.</li>
+				<li>If all of this is ok, the new password is hashed and updated in the database.</li>
+			</ol>
+		<h2>Explanation of Advanced Functions</h2>
+			<ol>
+			<li>Site Classification</li>
+			<p>When a user goes to the dashboard page, we check if there are any entries in the Site table that have NULL values for the food category. If they do, these sites have not yet been categorized. These are added to a new user specific file, in a format that has '|' separated fields including the place_id, name, category, and rating of the site as well as 8 fields that are 0 by default. This file is then run as the input of a python script that does Naive Bayes classification of the sites.</p>
+			<p>The Naive Bayes Classifier works by finding the counts of words in the names and Google-given category for sites from a set of training data (taken from sites in NY and San Francisco and categorized by hand) and using these counts to determine the probability that a site is each of the 8 categories based on that site's name and Google-given category. Although this function is working fairly well, it could be improved by including more training data (right now, there are mistakes like "The Art of Shaving" being classified as an art exhibit) and possibly by extending to bigrams and trigrams.</p>
+			<p>For each Site sent to the script, a line is output with the place_id and a '|' separated listing of the true values for the 8 fields (food, bars, sightseeing, shopping, art, museum, theater, sports). These are then used to update those categories in the Site table for the corresponding place_id.</p>
+			<li>Suggestion Scoring</li>
+			<p>Suggestion scores are calculated with the default values for preferences when a user creates an account and more importantly everytime the user updates his/her preferences. To update the suggestions, first any existing entries in the Suggestions table for that User are deleted.</p> 
+			<p>The scores are calculated by taking email and the 11 user preferences, the 8 mentioned above plus 3 for pricing, from the Preferences table and place_id, name, rating, price, and the 8 categorizations from the Site table. Then the "sum_of_matches" is calculate by adding instances for the 8 corresponding categories in which both are 1 (sum to 2), the price flags match appropriately, and when the price flag is zero (non-classified). Some tweaking was done to make these results optimized. The power of the food and bar categories was halved, because a lot of sports bars or "bar and grill"s get classified as barsand restaurants, so we don't want them to be double counted. This also helped just with the sheer number of restaurants that would be suggested due to quantity in the database. The shopping category was multipied by 7/8 to reduce the number of tiny shops that would show up in results. Finally, 0.5 was added to the sum_of_matches to eliminate the possibility of a 0, which would later mess up the calculation.</p>
+			<p>This sum_of_matches is then multiplied by the rating of the site + 1 (b/c unranked sites are given as 0, and we don't want to eliminate them entirely). The output is the score of the site that goes into the suggestions table for that user. Then, dependent on the days of the trip selected in the calendar a limited number of sites from the suggestions table for that user sorted in descending order of score are recommended on the side bar of the Calendar page.</p> 
+			</ol>
+
+		<h2>Technical Challenge</h2>
+			<p>One of the greatest technical challenges we experienced was becoming familiar with FullCalendar, a JavaScript JQuery plugin, and working with it to create the calendar feature of our website. Though the tool very helpful in rendering the calendar and event objects, we struggled with figuring out how to use it. Their documentation provides good examples for a few of their different features that we ended up using such as creating external events (those that appear on the side of the calendar) and creating regular events from JSON files. However, in our case we were creating event objects by querying our database to produce JSON output to then use to create external elements. Doing this proved to be a tricky task since we were putting different functionalities of FullCalendar together and it was also difficult because troubleshooting and debugging between files and AJAX methods was not very straight-forward. After we were able to solve the task of creating the events and allowing users to drag and drop them, we had some more difficulty with retrieving the information about the events from the calendar once they were placed there in order to save them back into the database to record user trips. Getting the information about the end time was particularly tricky. Nonetheless, we were able to figure out how to make it work so that users can create calendars and have them saved to go back and edit them.</p>
+		<h2>Did everythitng go as planned?</h2>
+			<p>We ran out of time to develop the function that would create an automatic itinerary for the user based on travel time between sites and user preferences. Instead, we added the drag and drop functionality of the calendar so that user coudl build the calendar themselves from site suggestions given.</p>
+		<h2>Final Division of Labor</h2>
+			<p>Cat Badart: Led data retrieval with the Google Places API and added this data to our database </p>
+			<p>Cameron Smick: Led front-end development for this project</p>
+			<p>Maria Ines Aranguren: Led development of calendar interface and connecting it to data in the database</p>
+			<p>Lauren Ferrara: Led development of the advanced function to categorize Sites with Naive Bayes and calculate scores for suggestions based on user preferences and site ratings</p>
+	</body>
+</html>
+

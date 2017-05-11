@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+	<title>MyTinerary</title>
+
+</head>
+
+<body>
+
+  	<h1>MyTinerary</h1>
+	<h3><a href="http://dsg1.crc.nd.edu/cse30246/dat_base">(View full site here)</h3>
+  	
+		<p>Team dat_base: Lauren Ferrara, Maria Ines Aranguren, Catherine Badart, Cameron Smick</p>
+
+  	<h2>Project Description</h2>
+	<h3><a href="./dev_plan.html">Development Plan</a></h3>
+	<h3><a href="./final_report.html">Final Report</a></h3>
+  	<h3>Summary</h3>
+
+  		<p>This application automatically generates travel itineraries based on user preferences, location, duration, and reviews. </p>
+
+	<h3>Application Domain </h3>
+
+		<p>Web Application using SQL and PHP for backend and HTML/CSS/Javascript for frontend. Will be using Professor Weninger's server.</p>
+
+	<h3>Usefulness </h3>
+
+		<p>Our website will be helpful to plan trips quickly, filling in events based on the user's preferences for cost and activities. It will take much of the hassle out of looking through multiple websites and travel books to decide what to do in a new area. It will be particularly useful for students travelling abroad, who are jumping from city to city without much planning time in between.</p>
+
+		<p>There is a website similar to this, called TripHobo. However, this website has preplanned events, without taking into account what a particular user likes to do.</p>
+
+	<h3>Realness</h3> 
+  
+		<p>We will pull data from websites using TripAdvisor API, Fodor's API, Google Reviews API, Goggle Maps API, and Yelp API to get an idea of what sights/events are popular in a particular location. There will be data from ratings, business hours, and routes to places</p>
+
+  	<h3>Functions</h3>
+
+	<h5>Basic Functions</h5>
+
+		<p>Insert, update, and delete user accounts. Insert, update, and delete events in the calendar. The update would occur when a user chooses to switch one suggested event for another from a list of other options. Searching would occur when they choose a particular city and also if the user decides to query for a particular sight/restaurant/event.</p> 
+
+	<h5>Advanced Functions</h5>
+
+  		<p>1. Send email to push data to your Mobile and Google Calendars.</p>
+  		<p>2. Recommendation algorithm based on what the user wants to do.</p>
+
+  	<h3>E/R Diagram</h3>
+
+  		<img src="ERDiagram.jpg">
+
+	<h5>Assumptions</h5>
+  		
+		<p>Calendar will only pertain to one user (no calendar sharing feature).</p>
+		<p>User will know start/end times of trip and nightly accomodations. Attributes of the user, not the calendar.</p>
+		<p>***UPDATE: We have now decided to implement a calendar sharing feature, and changed our ER Diagram accordingly.***		
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+	<h1>Places Near Chicago</h1>
+        <div id="list"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4YsBURcAGSsAdv-h8pyMVS1c41qzTb8I&libraries=places"></script>
+        <script>
+
+	document.addEventListener('DOMContentLoaded', function(event) {
+		var service = new google.maps.places.PlacesService(document.getElementById('list'));
+        	//specify location
+		var request = {
+                	location: new google.maps.LatLng(41.891166, -87.607430),
+			radius: 200
+		};
+		//make Place Search API Call	
+        	service.search(request, callback);
+		function callback(results, status){
+                	if(status == google.maps.places.PlacesServiceStatus.OK){
+                        	console.log(status);
+				console.log(results);
+				var req1 = new XMLHttpRequest();
+				req1.addEventListener('load', function() { console.log(this.responseText) });
+				//send json to stuff.php so that it can be processed and inserted into our database
+				req1.open('POST', 'http://dsg1.crc.nd.edu/cse30246/dat_base/stuff.php', true);
+				req1.setRequestHeader('Content-type', 'application/json');
+				req1.send(JSON.stringify(results));
+				for (var i = 0; i < results.length; i++) {
+					//write results to web page
+                        	      	document.getElementById('list').innerHTML += results[i].name + results[i].types + '<br/>'
+                        	}
+                	}
+        	};
+	});
+        </script>
+</body>
+</html>

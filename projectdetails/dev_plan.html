@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyTinerary Development Plan</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<h1><a href="./index.html">MyTinerary</a> Development Plan</h1>
+		<h2>Relational Schema</h2>
+			<p>User(<u>user_id</u>, email, password, first_name, last_name, trip_start, trip_end, price_max, price_min, start_loc, end_loc)</p>
+			<p>Event(<u>event_id</u>, site_id, calendar_id, start_time, end_time, date)</p>
+			<p>Calendar(<u>calendar_id</u>, creator_id)</p>
+			<p>Permissions(<u>calendar_id</u>, <u>user_id</u>, copy, edit, read)</p>
+			<p>Sites(<u>site_id</u>, name, location, open_time, close_time, category, rating, price)</p>
+		<h2>Development Environment</h2>
+			<p>We will be using SQL and PHP for the backend and HTML/CSS/Javascript for the frontend.</p>
+		<h2>Data</h2>
+			<p>We will get all of our data from the Google Places API. It should be able to provide us with the name, location, category, hours of operation, ratings, and price for any notable location around the world.</p>
+		<h2>Labor Division</h2>
+			<p>Cat Badart: Will be the lead on retrieving data with the Google Places API and adding this data to our database </p>
+			<p>Cameron Smick and Maria Ines Aranguren: Will lead the front-end development for this project and help with connecting it to the database</p>
+			<p>Lauren Ferrara: Will lead development of the advanced functions using machine learning algorithms to find the best fits for the user needs and fill them into an itinerary</p>	
+	
+		<h2>Timeline</h2>
+			<table>
+				<tr>
+					<td>October 7</td>
+					<td><b>Stage 3: Setup Development Environment</b></td>
+				</tr>
+				<tr>
+					<td>October 16</td>
+					<td>Getting real data and Insert records done </td>
+				</tr>
+				<tr>
+					<td>October 25</td>
+					<td>Update, delete, and query done</td>
+				</tr>
+				<tr>
+					<td>October 31</td>
+					<td>Making it pretty and testing before initial demo</td>
+				<tr>
+					<td>November 1-2</td>
+					<td><b>Stage 4: Initial Demo</b></td>
+				</tr>
+				<tr>
+					<td>November 7</td>
+					<td>Interesting queries: joins, search and print, etc</td>
+				</tr>
+				<tr>
+					<td>November 18</td>
+					<td>Advanced function 1 up and running</td>
+				</tr>
+				<tr>
+					<td>November 23</td>
+					<td>Advanced function 2 up and running</td>
+				</tr>
+				<tr>
+					<td>December 1</td>
+					<td>Make it pretty</td>
+				</tr>
+				<tr>
+					<td>December 7</td>
+					<td>Final testing = fake users</td>
+				</tr>
+				<tr>
+					<td>December 9</td>
+					<td><b>Stage 5: Final Demo and Report</b></td>
+				</tr>
+			</table>
+	</body>
+</html>
+

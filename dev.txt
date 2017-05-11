@@ -1,0 +1,41 @@
+id|Community Merchant Service|atm|0|0|0|0|0|0|0|0|0
+id|Jackson & Loomis|bus_station|0|0|0|0|0|0|0|0|0
+id|Standard Club|point_of_interest|5|0|0|0|0|0|0|0|0
+id|Rajun Cajun|restaurant|4|1|0|0|0|0|0|0|0
+id|Nia Restaurant - Tapas & Wine|bar|5|1|1|0|0|0|0|0|0
+id|Vinci Restaurant|restaurant|4|1|0|0|0|0|0|0|0
+id|E Hyde Park & East End|bus_station|0|0|0|0|0|0|0|0|0
+id|May May Gourmet Food Inc|restaurant|4|1|0|0|0|0|0|0|0
+id|Scootaround|car_rental|0|0|0|0|0|0|0|0|0
+id|Department of Microbiology: Hansen Nora M MD|doctor|0|0|0|0|0|0|0|0|0
+id|Dr. Julian C. Schink MD|doctor|0|0|0|0|0|0|0|0|0
+id|Osteria La Madia|restaurant|5|1|0|0|0|0|0|0|0
+id|Bubba Gump Shrimp Co|restaurant|5|1|0|0|0|0|0|0|0
+id|Gino's East|restaurant|4|1|0|0|0|0|0|0|0
+id|Lakeside Bank|bank|0|0|0|0|0|0|0|0|0
+id|Divvy Station: Loomis St & Taylor St|transit_station|0|0|0|0|0|0|0|0|0
+id|Prime Electric Co Inc|electrician|0|0|0|0|0|0|0|0|0
+id|Shedd Aquarium|aquarium|5|0|0|1|0|0|1|0|0
+id|Soundings Cafe|restaurant|4|1|0|0|0|0|0|0|0
+id|Aon Grand Ballroom|point_of_interest|4|0|0|1|0|0|0|1|0
+id|Chicago Symphony Orchestra|point_of_interest|5|0|0|0|0|0|0|1|0|
+id|Hershey's Chocolate World|point_of_interest|4|1|0|1|0|0|0|0|0
+id|Michael Jordan's Steak House Chicago|restaurant|4|1|0|0|0|0|0|0|0
+id|The Cheesecake Factory|restaurant|3|1|0|0|0|0|0|0|0
+id|Charming Charlie|store|4|0|0|0|1|0|0|0|0
+id|The Art of Shaving|store|4|0|0|0|1|0|0|0|0
+id|The LEGO Store|store|4|0|0|1|1|0|0|0|0
+id|The Shops at North Bridge|store|4|0|0|0|1|0|0|0|0
+id|Frontera Grill|restaurant|4|1|0|0|0|0|0|0|0
+id|Sing's Noodles|restaurant|3|1|0|0|0|0|0|0|0
+id|Jone's BBQ And Foot Massage|restaurant|5|1|0|0|0|0|0|0|0
+id|Pelago Ristorante|restaurant|5|1|0|0|0|0|0|0|0
+id|Raffaello Hotel|hotel|4|0|0|0|0|0|0|0|0
+id|Navy Pier|point_of_interest|5|1|0|1|1|0|0|0|0
+id|Margaritaville Restaurant Chicago|restaurant|3|1|1|0|0|0|0|0|0
+id|Harry Caray's Tavern Navy Pier|restaurant|4|1|1|0|0|0|0|0|0
+id|The Crystal Gardens|point_of_interest|4|0|0|1|0|0|0|0|0
+id|Navy Pier Beer Garden|bar|4|1|1|0|0|0|0|0|0
+id|Solidarity Dr & Planetarium|bus_station|0|0|0|0|0|0|0|0|0
+id|The Comedy Bar|bar|4|0|1|1|0|0|0|1|0
+id|Patagonia Chicago The Magnificent MileÂ®|store|5|0|0|0|1|0|0|0|0

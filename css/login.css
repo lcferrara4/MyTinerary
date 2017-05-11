@@ -1,0 +1,13 @@
+.header {
+	font-size: 24px;
+	padding: 6px 20px;
+}
+
+.header hr {
+	margin-top: 10px;
+}
+
+label small {
+	color: red;
+	margin-left: 10px;
+}

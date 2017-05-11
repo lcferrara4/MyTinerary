@@ -1,0 +1,51 @@
+.jumbotron {
+	background-color: #337ab7;
+	border-radius: 0px;
+	text-align: center;
+}
+
+/* header in jumbotron */
+.jumbotron h1 {
+    color: white;
+}
+
+.row.trip_row {
+	margin: 0px 0px;
+}
+
+#calendar_list {
+	border: 1px solid #ddd;
+}
+
+.center_text {
+	text-align: center;
+}
+
+.trip_desc {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+.calendar_option_btn_grp {
+    z-index: 2;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    text-align: right;
+}
+
+.modal {
+    width: 100%;
+    position: fixed;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header {
+    background-color: #337ab7;
+    color: white;
+    border-color: #337ab7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

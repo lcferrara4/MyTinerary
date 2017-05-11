@@ -1,0 +1,52 @@
+.navbar-static-top {
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-bottom: 0px;
+}
+
+.content {	
+	background-repeat: no-repeat;
+	background-origin: center;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.content-1 {
+	background-image: url("../images/nyc.jpg");
+	background-position: top;
+}
+
+.content-2 {
+	background-image: url("../images/street.jpg");
+	background-position: center;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-color: transparent;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	white-space: nowrap;
+}
+
+.jumbotron p {
+	white-space: nowrap;
+}
+
+.panes {
+	padding: 20vh 0%;
+}
+
+.pane {
+	text-align: center;
+}
+
+.pane img {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 10px;
+}
